@@ -425,6 +425,7 @@ venv/
 # Mac system files
 *.DS_Store
 */.DS_Store
+.DS_Store
 
 # jupyter
 notebook/.ipynb_checkpoints
