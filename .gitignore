@@ -417,15 +417,15 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-# venv
-venv/*
-venv
-venv/
-
 # Mac system files
 *.DS_Store
 */.DS_Store
 .DS_Store
+
+# venv
+venv/*
+venv
+venv/
 
 # jupyter
 notebook/.ipynb_checkpoints
