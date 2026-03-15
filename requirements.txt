@@ -1,2 +1,11 @@
 pandas >= 2.3.3
 pyspark >= 4.0.0
+numpy <2
+scikit-learn 
+scipy 
+matplotlib 
+seaborn 
+surprise 
+tensorflow 
+shap 
+lime

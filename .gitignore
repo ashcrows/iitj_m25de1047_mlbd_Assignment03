@@ -422,10 +422,13 @@ venv/*
 venv
 venv/
 
+# Mac system files
+*.DS_Store
+*/.DS_Store
+
 # jupyter
 notebook/.ipynb_checkpoints
 
 # Dataset
 dataset/ml-latest
 dataset/ml-latest/*
-
