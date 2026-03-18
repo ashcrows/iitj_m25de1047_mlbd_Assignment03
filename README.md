@@ -31,13 +31,13 @@ Required files:
 - Task 7 uses a meta-learning hybrid model.
 - Task 12 uses SHAP for model-agnostic explainability.
 
-## Design
+### Design
 This notebook is designed to run on a local Mac safely:
 - Spark handles loading, preprocessing, aggregation, TF-IDF feature generation, and ALS.
 - Local methods are restricted to bounded subsets only.
 - Any conversion to pandas is intentionally limited.
 
-## Local Safety Limits
+### Local Safety Limits
 - MAX_EVAL_USERS
 - MAX_CF_USERS
 - MAX_CF_MOVIES
@@ -47,6 +47,6 @@ This notebook is designed to run on a local Mac safely:
 
 These can be adjusted if the machine has more memory.
 
-## Notes
+### Notes
 - Manual SVD is run only on a reduced matrix because it is an assignment-specific local method.
 - Neural training and explainability are also sampled to avoid driver-memory issues.
