@@ -4,8 +4,8 @@ numpy <2
 scikit-learn 
 scipy 
 matplotlib 
-seaborn 
-surprise 
+seaborn  
 tensorflow 
 shap 
 lime
+scikit-surprise
